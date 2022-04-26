@@ -1,0 +1,65 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>sns-ryuseulgi</title>
+
+        <style>
+            input {
+                font-size: 15px;
+                width: 300px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="page" style="width: 800px; margin: 0 auto;">
+            <div class="top">
+                <div class="search_bar" align="center">
+                    <input style="text-align: center;" type="text" placeholder="검색">
+                    <button>🔍</button>
+                </div>
+                <div class="my_id" align="right" style="margin-top: -30px;">
+                    <p><b>slgi__i</b></p>
+                </div>
+                <hr style="border: solid 1px #2b2b2b;">
+            </div>
+            <div class="middle">
+                <div class="picture">
+                    <div style="margin-top: 1px; float: left; margin-left: 80px; margin-right: 40px;">
+                        <img src="{% static 'media/spring.png'%}" style="width: 100px; margin-bottom: 1px; border-radius: 50%;">
+                        <p style="width: 90px; margin: 0px; text-align: center;">spring</p>
+                    </div>
+                    <div style="margin-top: 1px; float: left; margin-right: 40px; margin-left: 40px;">
+                        <img src="{% static 'media/summer.png'%}" style="width: 100px; margin-bottom: 1px; border-radius: 50%;">
+                        <p style="width: 90px; margin: 0px; text-align: center;">summer</p>
+                    </div>
+                    <div style="margin-top: 1px; float: left; margin-right: 40px; margin-left: 40px;">
+                        <img src="{% static 'media/fall.png' %}" style="width: 100px; margin-bottom: 1px; border-radius: 50%;">
+                        <p style="width: 90px; margin: 0px; text-align: center;">fall</p>
+                    </div>
+                    <div style="margin-top: 1px; float: left; margin-left: 40px;">
+                        <img src="{% static 'media/winter.png' %}" style="width: 100px; margin-bottom: 1px; border-radius: 50%;">
+                        <p style="width: 90px; margin: 0px; text-align: center;">winter</p>
+                    </div>
+                    <div style="clear: both; margin: 0;"></div>
+                </div>
+                <div class="content">
+                    <hr align="right" style="border: solid 1px #2b2b2b;">
+                    <div class="main_picture" align="center">
+                        <img style="width: 700px;" src="{% static 'media/mainpicture.png'%}">
+                    </div>
+                    <div class="text">
+                        <p style="margin-left: 50px; font-size: 30px;">❤️ &nbsp; 💬 &nbsp; 🛫</p>
+                        <p style="margin-left: 50px;"><b>likelion_dongguk</b>님 외 <b>20,021,205명</b>이 좋아합니다</p>
+                        <p style="margin-left: 50px;"><b>slg__i</b> 🐯호랑이의해도 아자아자~^^🦁</p>
+                        <p style="margin-left: 50px; color: grey;">댓글 1004개 모두 보기</p>
+                        <p style="margin-left: 50px;"><b>go5rae</b> 아자아자!!🖤</p>
+                        <p style="margin-left: 50px;"><b>xeesoxee</b> 🖤힘내자!!</p>
+                        <p style="margin-left: 50px;"><b>ldh_sky</b> 호랑이 그림 귀엽다!</p>
+                        <p style="margin-left: 50px; color: grey;">1월 1일</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
